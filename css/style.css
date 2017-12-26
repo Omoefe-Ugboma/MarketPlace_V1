@@ -1,0 +1,154 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	background: #fff;
+	padding:1%;
+	box-sizing:border-box;
+}
+
+#header{
+	border-radius:3px;
+	width:100%;
+	height:50px;
+	background:#25C4BA !important;
+}
+
+#bodyleft{
+	float:left; 
+	border-radius:3px; 
+	width:24%;
+	height:500px;
+	background:darkgrey;
+	margin-top:10px;
+	margin-left:10px;
+}
+#bodyleft h3{
+	text-align:center; 
+	border-radius:3px; 
+	height:40px;
+	line-height:40px; 
+	background:#25C4BA;
+	color:#fff; 
+}
+#bodyright h3{
+	text-align:center; 
+	border-radius:3px; 
+	height:40px;
+	line-height:40px; 
+	background:#25C4BA;
+	color:#fff;
+	border-bottom:2px solid #fff;  
+}
+#bodyleft ul{
+	margin-top:10px;
+	list-style: none;
+}
+#bodyleft ul li{
+	border-radius:3px;
+	 height:30px;
+	 line-height:30px;
+	}
+#bodyleft ul li a{
+	display:block; 
+	text-decoration:none;
+	color:#fff;
+	padding-left:3%;
+}
+#bodyleft ul li:hover{
+	background:#25C4BA;
+}
+#bodyright{
+	padding-bottom:2%;
+	float:left; 
+	border-radius:3px; 
+	width:73%;
+	background:#25B4CA;
+	margin-top:10px;
+	margin-left:10px;
+	min-height:500px;
+	
+}
+#bodyright form table{
+	width:95%;
+	margin: auto;
+	margin-top:10px;
+}
+#bodyright form table tr td{
+	color: #fff;
+	width:50%;
+	height: 35px;
+	padding-left: 3%;
+}
+#bodyright form table tr td input{
+   padding-left:2%;
+   width:100%;
+   height: 30px;
+   border-radius:3px;
+   border:1px solid #fff;
+}
+#bodyright form table tr td select{
+   padding-left:2%;
+   width:100%;
+   height: 30px;
+   border-radius:3px;
+   border:1px solid #fff;
+}
+#bodyright form button{
+	margin-top:20px;
+	border-radius:3px;
+	width: 200px;
+	background: #800080;
+	border:2px solid #400040;
+	height:30px;
+	color: #fff;}
+#bodyright form button:hover{background:#400040;}
+
+#bodyright form table tr th{
+	color: #fff;
+	padding: 0% 2% 0% 2%;
+	box-sizing: border-box;
+	text-align: left;
+	height: 30px;
+	font-size: 20px;
+}
+
+#add_cat{
+	margin-top: 20px;
+	border-top: 2px solid #fff;
+}
+
+#bodyright form table tr td a{
+	text-decoration: none;
+	color: white;
+}
+.scroll{
+	overflow-x: scroll;
+}
+
+.scroll form table tr th{
+	font-size: 16px !important;
+	background: #25C4BA;
+	padding: 0px !important;
+	text-align: center !important;
+}
+.scroll form table tr td{
+	min-width: 100px;
+	height: 35px;
+	padding-left: 2% !important;
+}
+.scroll form table tr td img{
+	height: 30px;
+	width: 30px;
+}
+#login-form{
+	width: 50%;
+	height: 60%;
+	border:2px solid #000;
+	border-radius:15px;
+	box-shadow: 7px 7px 15px rgba(0,0,0,0.6);
+	margin: 7% auto;
+	padding: 15px;
+	background: #fff;
+}
